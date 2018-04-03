@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B97B70D41F175F46005AF8C1"
-               BuildableName = "MD5CalculateTool.app"
+               BuildableName = "MD5&#x8ba1;&#x7b97;&#x5668;.app"
                BlueprintName = "MD5CalculateTool"
                ReferencedContainer = "container:MD5CalculateTool.xcodeproj">
             </BuildableReference>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -53,7 +54,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B97B70D41F175F46005AF8C1"
-            BuildableName = "MD5CalculateTool.app"
+            BuildableName = "MD5&#x8ba1;&#x7b97;&#x5668;.app"
             BlueprintName = "MD5CalculateTool"
             ReferencedContainer = "container:MD5CalculateTool.xcodeproj">
          </BuildableReference>
@@ -65,6 +66,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -76,7 +78,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B97B70D41F175F46005AF8C1"
-            BuildableName = "MD5CalculateTool.app"
+            BuildableName = "MD5&#x8ba1;&#x7b97;&#x5668;.app"
             BlueprintName = "MD5CalculateTool"
             ReferencedContainer = "container:MD5CalculateTool.xcodeproj">
          </BuildableReference>
@@ -95,7 +97,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B97B70D41F175F46005AF8C1"
-            BuildableName = "MD5CalculateTool.app"
+            BuildableName = "MD5&#x8ba1;&#x7b97;&#x5668;.app"
             BlueprintName = "MD5CalculateTool"
             ReferencedContainer = "container:MD5CalculateTool.xcodeproj">
          </BuildableReference>

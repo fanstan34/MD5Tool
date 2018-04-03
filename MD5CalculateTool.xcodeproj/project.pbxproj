@@ -12,29 +12,10 @@
 		B97B70E01F175F46005AF8C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97B70DF1F175F46005AF8C1 /* ViewController.m */; };
 		B97B70E21F175F46005AF8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97B70E11F175F46005AF8C1 /* Assets.xcassets */; };
 		B97B70E51F175F47005AF8C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97B70E31F175F47005AF8C1 /* Main.storyboard */; };
-		B97B70F01F175F47005AF8C1 /* MD5CalculateToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97B70EF1F175F47005AF8C1 /* MD5CalculateToolTests.m */; };
-		B97B70FB1F175F47005AF8C1 /* MD5CalculateToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97B70FA1F175F47005AF8C1 /* MD5CalculateToolUITests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B97B70EC1F175F47005AF8C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B97B70CD1F175F46005AF8C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B97B70D41F175F46005AF8C1;
-			remoteInfo = MD5CalculateTool;
-		};
-		B97B70F71F175F47005AF8C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B97B70CD1F175F46005AF8C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B97B70D41F175F46005AF8C1;
-			remoteInfo = MD5CalculateTool;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B97B70D51F175F46005AF8C1 /* MD5CalculateTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MD5CalculateTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97B70D51F175F46005AF8C1 /* MD5计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MD5计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97B70D81F175F46005AF8C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B97B70D91F175F46005AF8C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B97B70DC1F175F46005AF8C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,30 +24,10 @@
 		B97B70E11F175F46005AF8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B97B70E41F175F47005AF8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B97B70E61F175F47005AF8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B97B70EB1F175F47005AF8C1 /* MD5CalculateToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MD5CalculateToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B97B70EF1F175F47005AF8C1 /* MD5CalculateToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5CalculateToolTests.m; sourceTree = "<group>"; };
-		B97B70F11F175F47005AF8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B97B70F61F175F47005AF8C1 /* MD5CalculateToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MD5CalculateToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B97B70FA1F175F47005AF8C1 /* MD5CalculateToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5CalculateToolUITests.m; sourceTree = "<group>"; };
-		B97B70FC1F175F47005AF8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B97B70D21F175F46005AF8C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B97B70E81F175F47005AF8C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B97B70F31F175F47005AF8C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				B97B70D71F175F46005AF8C1 /* MD5CalculateTool */,
-				B97B70EE1F175F47005AF8C1 /* MD5CalculateToolTests */,
-				B97B70F91F175F47005AF8C1 /* MD5CalculateToolUITests */,
 				B97B70D61F175F46005AF8C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,9 +48,7 @@
 		B97B70D61F175F46005AF8C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B97B70D51F175F46005AF8C1 /* MD5CalculateTool.app */,
-				B97B70EB1F175F47005AF8C1 /* MD5CalculateToolTests.xctest */,
-				B97B70F61F175F47005AF8C1 /* MD5CalculateToolUITests.xctest */,
+				B97B70D51F175F46005AF8C1 /* MD5计算器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,24 +76,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B97B70EE1F175F47005AF8C1 /* MD5CalculateToolTests */ = {
-			isa = PBXGroup;
-			children = (
-				B97B70EF1F175F47005AF8C1 /* MD5CalculateToolTests.m */,
-				B97B70F11F175F47005AF8C1 /* Info.plist */,
-			);
-			path = MD5CalculateToolTests;
-			sourceTree = "<group>";
-		};
-		B97B70F91F175F47005AF8C1 /* MD5CalculateToolUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B97B70FA1F175F47005AF8C1 /* MD5CalculateToolUITests.m */,
-				B97B70FC1F175F47005AF8C1 /* Info.plist */,
-			);
-			path = MD5CalculateToolUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,44 +93,8 @@
 			);
 			name = MD5CalculateTool;
 			productName = MD5CalculateTool;
-			productReference = B97B70D51F175F46005AF8C1 /* MD5CalculateTool.app */;
+			productReference = B97B70D51F175F46005AF8C1 /* MD5计算器.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B97B70EA1F175F47005AF8C1 /* MD5CalculateToolTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B97B71021F175F47005AF8C1 /* Build configuration list for PBXNativeTarget "MD5CalculateToolTests" */;
-			buildPhases = (
-				B97B70E71F175F47005AF8C1 /* Sources */,
-				B97B70E81F175F47005AF8C1 /* Frameworks */,
-				B97B70E91F175F47005AF8C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B97B70ED1F175F47005AF8C1 /* PBXTargetDependency */,
-			);
-			name = MD5CalculateToolTests;
-			productName = MD5CalculateToolTests;
-			productReference = B97B70EB1F175F47005AF8C1 /* MD5CalculateToolTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B97B70F51F175F47005AF8C1 /* MD5CalculateToolUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B97B71051F175F47005AF8C1 /* Build configuration list for PBXNativeTarget "MD5CalculateToolUITests" */;
-			buildPhases = (
-				B97B70F21F175F47005AF8C1 /* Sources */,
-				B97B70F31F175F47005AF8C1 /* Frameworks */,
-				B97B70F41F175F47005AF8C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B97B70F81F175F47005AF8C1 /* PBXTargetDependency */,
-			);
-			name = MD5CalculateToolUITests;
-			productName = MD5CalculateToolUITests;
-			productReference = B97B70F61F175F47005AF8C1 /* MD5CalculateToolUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,16 +108,6 @@
 					B97B70D41F175F46005AF8C1 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
-					};
-					B97B70EA1F175F47005AF8C1 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B97B70D41F175F46005AF8C1;
-					};
-					B97B70F51F175F47005AF8C1 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B97B70D41F175F46005AF8C1;
 					};
 				};
 			};
@@ -232,8 +125,6 @@
 			projectRoot = "";
 			targets = (
 				B97B70D41F175F46005AF8C1 /* MD5CalculateTool */,
-				B97B70EA1F175F47005AF8C1 /* MD5CalculateToolTests */,
-				B97B70F51F175F47005AF8C1 /* MD5CalculateToolUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,20 +136,6 @@
 			files = (
 				B97B70E21F175F46005AF8C1 /* Assets.xcassets in Resources */,
 				B97B70E51F175F47005AF8C1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B97B70E91F175F47005AF8C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B97B70F41F175F47005AF8C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,36 +152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B97B70E71F175F47005AF8C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B97B70F01F175F47005AF8C1 /* MD5CalculateToolTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B97B70F21F175F47005AF8C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B97B70FB1F175F47005AF8C1 /* MD5CalculateToolUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B97B70ED1F175F47005AF8C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B97B70D41F175F46005AF8C1 /* MD5CalculateTool */;
-			targetProxy = B97B70EC1F175F47005AF8C1 /* PBXContainerItemProxy */;
-		};
-		B97B70F81F175F47005AF8C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B97B70D41F175F46005AF8C1 /* MD5CalculateTool */;
-			targetProxy = B97B70F71F175F47005AF8C1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B97B70E31F175F47005AF8C1 /* Main.storyboard */ = {
@@ -414,8 +262,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MD5CalculateTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.MD5CalculateTool;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vnetoo.MD5---";
+				PRODUCT_MODULE_NAME = "MD5计算器";
+				PRODUCT_NAME = "MD5计算器";
 			};
 			name = Debug;
 		};
@@ -426,58 +275,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MD5CalculateTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.MD5CalculateTool;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B97B71031F175F47005AF8C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MD5CalculateToolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.MD5CalculateToolTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5CalculateTool.app/Contents/MacOS/MD5CalculateTool";
-			};
-			name = Debug;
-		};
-		B97B71041F175F47005AF8C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MD5CalculateToolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.MD5CalculateToolTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5CalculateTool.app/Contents/MacOS/MD5CalculateTool";
-			};
-			name = Release;
-		};
-		B97B71061F175F47005AF8C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MD5CalculateToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.MD5CalculateToolUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MD5CalculateTool;
-			};
-			name = Debug;
-		};
-		B97B71071F175F47005AF8C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MD5CalculateToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vnetoo.MD5CalculateToolUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MD5CalculateTool;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vnetoo.MD5---";
+				PRODUCT_MODULE_NAME = "MD5计算器";
+				PRODUCT_NAME = "MD5计算器";
 			};
 			name = Release;
 		};
@@ -500,22 +300,7 @@
 				B97B71011F175F47005AF8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B97B71021F175F47005AF8C1 /* Build configuration list for PBXNativeTarget "MD5CalculateToolTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B97B71031F175F47005AF8C1 /* Debug */,
-				B97B71041F175F47005AF8C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		B97B71051F175F47005AF8C1 /* Build configuration list for PBXNativeTarget "MD5CalculateToolUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B97B71061F175F47005AF8C1 /* Debug */,
-				B97B71071F175F47005AF8C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
